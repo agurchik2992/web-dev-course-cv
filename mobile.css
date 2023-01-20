@@ -1,0 +1,52 @@
+    @media screen and (max-width: 768px) {
+        header{
+            flex-direction: column;
+        }
+
+        .personal_info_wrapper, 
+        .contacts, 
+        main, 
+        footer{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .personal_info{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contacts{
+            margin-top: 10px;
+        }
+
+        main{
+            grid-template-columns: 1fr;
+        }
+
+        footer ul{
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #addExpForm{
+            width: auto;
+            top: 30px;
+        }
+
+        #addExpForm * {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        #addExpForm .submit {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #addExpForm .cancel{
+            display: inline;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
